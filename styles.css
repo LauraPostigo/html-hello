@@ -1,0 +1,79 @@
+body{
+    background: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+
+.head-header img{
+    width: 50px;
+	height: 50px;
+    margin-right: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header h1{
+    position: relative;
+    margin: 0;
+    margin-top: -30px;
+    display: inline-block;
+    width: 85%;
+}
+div.post{
+    background-color: white;
+    margin-top: 10px;
+
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+    color: grey;
+}
+div.post img{ 
+    width: 100%;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+div.post h2{
+    padding: 10px;
+    margin: 0;
+}  
+div.post .post-bottom div:first-child{
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+}
+div.post .post-bottom div:last-child{
+    
+    width: 15%;
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+    cursor: pointer;
+}
+div.post p{
+    margin-left: 10px;
+}
+.hover-link svg {
+    fill: grey;
+    transition: fill;
+}
+.hover-link:hover svg {
+    fill: red;
+}
